@@ -1,5 +1,5 @@
 import streamlit as st
-# import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 
 """ 1, 入参 """
 number = st.number_input('number', None)
