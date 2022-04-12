@@ -1,5 +1,5 @@
 import streamlit as st
-from matplotlib import pyplot as plt
+# import matplotlib.pyplot as plt
 
 """ 1, 入参 """
 number = st.number_input('number', None)
@@ -21,6 +21,6 @@ st.markdown("# matplotlib绘图")  # 带#是一级标题，字体会大一点，
 x_plot = [i for i in range(int(number))]
 y_plot = [2*j for j in range(int(number))]
 
-plt.figure()
-plt.plot(x_plot, y_plot)
-st.pyplot()    # 其实就是 plt.show()  这里不能直接写plt.show()
+# plt.figure()
+# plt.plot(x_plot, y_plot)
+# st.pyplot()    # 其实就是 plt.show()  这里不能直接写plt.show()
