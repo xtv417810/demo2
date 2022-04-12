@@ -7,7 +7,7 @@ text = st.text_input('text', None)
 """ 2， 中间过程 """
 def turn(x,y):
     result = str(int(x)) + ' ' + y
-	return result
+    return result
 result = turn(number, text)
 result = {'result':result}
 
